@@ -1,0 +1,8 @@
+{
+    "description":"允许自定义全局代理模式是否使用HTTP代理，WIN7默认启用HTTP全局代理，WIN10默认启用SOCKS全局代理",
+    "format":".lzma",
+    "main":"\\winXray.exe",
+    "updater":"\\winXray.exe",
+    "url":"https://raw.githubusercontent.com/winXray/winXray/master/release/update/",
+    "version":"1.4"
+}

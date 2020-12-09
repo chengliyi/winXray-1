@@ -1,0 +1,27 @@
+﻿// 号开头为注释行。
+// 本文件用于指定默认服务器列表。
+// 本文件可以直接输入json格式的服务器数组（ 服务器可以使用subscribeUrl字段指定订阅源地址，可以指定"autoConnect":false字段禁止自动连接 ）
+// 也可以每行一个 vless://、vmess://、trojan、trojan-go、ss:// 等分享链接
+[
+    {
+        "address":"z.vulvpstech.xyz",
+        "flow":"xtls-rprx-direct",
+        "host":"z.vulvpstech.xyz",
+        "id":"bf4a6c2b-db1b-57de-f45a-364aa254d1f7",
+        "network":"tcp",
+        "port":"443",
+        "protocol":"vless",
+        "ps":"美国西雅图_XTLS/Direct",
+        "tls":"xtls"
+    },
+    {
+        "address":"q.vulvpstech.xyz",
+        "host":"q.vulvpstech.xyz",
+        "id":"904da8f7-a5af-3c34-3f3d-c3b2ea59bde8",
+        "network":"tcp",
+        "port":"443",
+        "protocol":"vless",
+        "ps":"美国洛杉矶_XTLS/Direct",
+        "tls":"xtls"
+    }
+]
